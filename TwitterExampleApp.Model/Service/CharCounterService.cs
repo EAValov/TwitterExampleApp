@@ -15,7 +15,7 @@ namespace TwitterExampleApp.Model.Service
         /// Возвращает самый часто используемый символ в списке слов.
         /// </summary>
         /// <param name="input_string"></param>
-        /// <returns>Словарь самых частых букв.</returns>
+        /// <returns>CharCountResult.</returns>
         public CharCountResult CountMostOccuringCharInString(string input_string)
         {
             if (string.IsNullOrWhiteSpace(input_string))

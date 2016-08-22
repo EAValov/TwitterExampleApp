@@ -8,6 +8,9 @@ using TwitterExampleApp.Model.Service;
 
 namespace TwitterExampleApp.Tests
 {
+    /// <summary>
+    /// Тесты сервиса TwitterService.
+    /// </summary>
     [TestClass]
     public class TwitterServiceTests
     {

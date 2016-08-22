@@ -14,6 +14,7 @@ namespace TwitterExampleApp
             {
                 TwitterService service = new TwitterService(new LinqToTwitterRepository());
 
+                // Количество твитов для подсчета.
                 const int TWIT_COUNT = 5;
 
                 while (true)
