@@ -98,7 +98,7 @@ namespace TwitterExampleApp.Model.Service
 
             if (count_result.Symbols.Count() > 1)
             {
-                letters_string = string.Join(", ", count_result.Symbols.Take(count_result.Symbols.Count() - 1)) + (count_result.Symbols.Count() <= 1 ? "" : " и ") + count_result.Symbols.LastOrDefault();
+                letters_string = string.Join("\", \"", count_result.Symbols.Take(count_result.Symbols.Count() - 1)) + (count_result.Symbols.Count() <= 1 ? "" : "\" и \"") + count_result.Symbols.LastOrDefault();
                 letters_count_ending = "буквами";
             }
             else

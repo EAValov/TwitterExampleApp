@@ -21,11 +21,11 @@ namespace TwitterExampleApp.Tests
         /// </summary>
         private static List<Tweet> _testTwits = new List<Tweet>()
         {
-            new Tweet() { DateTime = DateTime.Now, Text = "Пока народ безграмотен, из вархамера? По ночам об окно царапается зубами землеройка, к кавказцам." },
-            new Tweet() { DateTime = DateTime.Now, Text = "Быть трезвым в Газпроме мотайте на виртуальном хостинге? — НЕЛЬЗЯ. Он лучший Wednesday's gone 10 лет. Мы." },
-            new Tweet() { DateTime = DateTime.Now, Text = "Iron Man 3 made me do it was done by comic creator Wouter Goedkoop. For more fan video ever made! -->." },
-            new Tweet() { DateTime = DateTime.Now, Text = "Вернулся с нефтяной трубы не ожидали такого же мнения. Дружно переходим на гитаре, следя за кого? на!" },
-            new Tweet() { DateTime = DateTime.Now, Text = "ЕСЛИ ПОСЛЕ ПРОСМОТРА ЗАКАЧИВАТЬ СКАЧАННЫЕ ФИЛЬМЫ ОБРАТНО В ГУГЛ ХРОМ ПЕРЕИМЕНУЮТ В торговом центре Пекина?" },
+            new Tweet() { DateTime = DateTime.Now, Text = "ффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффффф" },
+            new Tweet() { DateTime = DateTime.Now, Text = "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee" },
+            new Tweet() { DateTime = DateTime.Now, Text = "sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss" },
+            new Tweet() { DateTime = DateTime.Now, Text = "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh" },
+            new Tweet() { DateTime = DateTime.Now, Text = "qqqqqqqqqqqqqqqqqqqqqqq" },
         };
 
         /// <summary>
@@ -60,7 +60,7 @@ namespace TwitterExampleApp.Tests
             var result = service.Process(_testUsername, _authData, _twitСount);
 
             Assert.IsNotNull(result);
-            Assert.AreEqual("@vasya чаще всего пользуется буквой \"а\": 26 раз за 5 твитов!.", result);
+            Assert.AreEqual("@vasya чаще всего пользуется буквами \"ф\", \"e\" и \"s\": 87 раз за 5 твитов!.", result);
         }
     }
 }
